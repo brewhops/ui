@@ -5,6 +5,7 @@ import { TankMonitoring } from './pages/TankMonitoring';
 import { BatchHistory } from './pages/BatchHistory';
 import { TankHistory } from './pages/TankHistory';
 import { Admin } from './pages/Admin';
+import './App.styl'
 
 const App: React.FC = () => {
   return (
