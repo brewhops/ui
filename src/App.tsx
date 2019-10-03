@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { NavBar } from './components/NavBar/NavBar';
+import { TankMonitoring } from './pages/TankMonitoring';
+import { BatchHistory } from './pages/BatchHistory';
+import { TankHistory } from './pages/TankHistory';
+import { Admin } from './pages/Admin';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NavBar/>
+      <Switch>
+        <Route path="/tank-monitoring">
+          <TankMonitoring/>
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/batch-history">
+          <BatchHistory/>
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/tank-history">
+          <TankHistory/>
+        </Route>
+      </Switch>
+      <Switch>
+        <Route path="/admin">
+          <Admin/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
