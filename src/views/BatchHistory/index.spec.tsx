@@ -1,5 +1,5 @@
 import React from 'react';
-import { BatchHistory } from '.';
+import { BatchHistory } from '../BatchHistory';
 import { shallow } from 'enzyme';
 
 describe('src/pages/BatchHistory/index.tsx', () => {

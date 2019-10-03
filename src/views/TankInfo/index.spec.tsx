@@ -1,5 +1,5 @@
 import React from 'react';
-import { TankInfo } from '.';
+import { TankInfo } from '../TankInfo';
 import { shallow } from 'enzyme';
 
 describe('src/pages/TankInfo/index.tsx', () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Admin } from '.';
+import { Admin } from '../Admin';
 import { shallow } from 'enzyme';
 
 describe('src/pages/Admin/index.tsx', () => {

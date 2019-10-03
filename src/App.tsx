@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { NavBar } from './components/NavBar/NavBar';
-import { TankMonitoring } from './pages/TankMonitoring';
-import { BatchHistory } from './pages/BatchHistory';
-import { TankHistory } from './pages/TankHistory';
-import { Admin } from './pages/Admin';
+import { TankMonitoring } from './views/TankMonitoring';
+import { BatchHistory } from './views/BatchHistory';
+import { TankHistory } from './views/TankHistory';
+import { Admin } from './views/Admin';
 import './App.styl'
 
 const App: React.FC = () => {
