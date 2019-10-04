@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { NavBar } from './components/NavBar/NavBar';
-import { TankMonitoring } from './views/TankMonitoring/TankMonitoring';
+import TankMonitoring from './views/TankMonitoring/TankMonitoring';
 import { BatchHistory } from './views/BatchHistory/BatchHistory';
 import { TankHistory } from './views/TankHistory/TankHistory';
 import { Admin } from './views/Admin/Admin';

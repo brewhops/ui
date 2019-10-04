@@ -1,0 +1,29 @@
+@import '../../styles/breakpoints'
+
+.navbar {
+  display flex
+  position sticky
+  top 0
+  background-color #00aaa6
+  justify-content center
+  z-index 1
+}
+
+.option {
+  color #ffffff
+  text-decoration none
+  line-height 50px
+  padding 0 10px
+  font-size 14pt
+  +less-than(tablet){
+    font-size 12pt
+  }
+}
+
+/* onclick color: 267f7d */
+.option:hover {
+  background-color: #00ccc7;
+}
+.active {
+  background-color: #267f7d;
+}

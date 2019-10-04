@@ -1,0 +1,104 @@
+@import '../../../styles/breakpoints'
+
+#tankInfo {
+  grid-area: info;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+#tankContents {
+  display: grid;
+  justify-content: center;
+  grid-gap: 10px;
+  color: white;
+  font-weight: 300;
+  margin: 5px;
+  grid-auto-rows: minmax(128px, max-content);
+
+  +greater-than(desktop) {
+    grid-template-columns: repeat(4, 250px);
+  }
+
+  +between(laptop, desktop) {
+    grid-template-columns: repeat(4, 220px);
+  }
+
+  +less-than(laptop) {
+    grid-template-columns: repeat(3, 200px);
+  }
+
+  +less-than(tablet) {
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  +less-than(mobile) {
+    grid-template-columns: repeat(1, 250px);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .primary-fermentation {
+    background: White;
+    color: Black;
+    border: 1px solid Black;
+  }
+
+  .primary-adjunct-add {
+    background: rgb(255, 255, 255);
+    color: Black;
+    border: 1px solid Black;
+  }
+
+  .free-rise {
+    background: rgb(247, 203, 175);
+    color: Black;
+  }
+
+  .cap {
+    background: rgb(255, 253, 56);
+    color: Black;
+  }
+
+  .adjunct-add  {
+    background: rgb(148, 206, 88);
+    color: Black;
+  }
+
+  .exception {
+    background: Red;
+    color: White;
+  }
+
+  .wait-for-diacetyl {
+    background: rgb(253, 191, 45);
+    color: Black;
+  }
+
+  .crashed {
+    background: rgb(29, 177, 237);
+    color: Black;
+  }
+
+  .yeast-pull {
+    background: rgb(127, 95, 17);
+    color: rgb(253, 251, 55);
+  }
+
+  .no-action {
+    background: Teal
+    color: White
+  }
+
+  .broken {
+    background: Red;
+  }
+
+  .busy {
+    background: #c9c200;
+  }
+}

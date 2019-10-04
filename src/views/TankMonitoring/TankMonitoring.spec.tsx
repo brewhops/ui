@@ -1,5 +1,5 @@
 import React from 'react';
-import { TankMonitoring } from './TankMonitoring';
+import TankMonitoring from './TankMonitoring';
 import { shallow } from 'enzyme';
 
 describe('src/pages/TankMonitoring/TankMonitoring.tsx', () => {
