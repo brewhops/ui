@@ -1,0 +1,19 @@
+@import '../../styles/breakpoints'
+
+#content {
+  display: grid;
+
+  +greater-than(desktop) {
+    grid-template-columns: 1fr;
+  }
+
+  grid-template-columns: 1fr;
+  grid-template-areas: 'info';
+
+  +less-than(tablet) {
+    grid-template-columns: 98vw;
+    grid-template-areas: 'info';
+  }
+
+  justify-items: center;
+}

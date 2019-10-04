@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`src/pages/Login/index.tsx renders the Login page 1`] = `ShallowWrapper {}`;

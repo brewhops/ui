@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Admin/Admin.tsx renders the Admin page 1`] = `ShallowWrapper {}`;

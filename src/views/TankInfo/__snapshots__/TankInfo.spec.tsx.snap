@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/TankInfo/TankInfo.tsx renders the Tank Info page 1`] = `ShallowWrapper {}`;

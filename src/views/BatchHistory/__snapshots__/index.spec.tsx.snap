@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`src/pages/Admin/NavBar.tsx renders the nav bar 1`] = `ShallowWrapper {}`;
-
-exports[`src/pages/BatchHistory/index.tsx renders the Batch History page 1`] = `ShallowWrapper {}`;

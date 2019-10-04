@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Loader.tsx renders the loader 1`] = `ShallowWrapper {}`;
